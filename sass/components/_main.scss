@@ -1,0 +1,68 @@
+.container{
+    width: 324px;
+    margin: 0 auto;
+}
+@media screen and (min-width:1200px) {
+    .container{
+    width: 1226px;
+    }
+}
+h5{
+    margin-block-start: 0;
+    margin-block-end: 0 ;
+}
+img{
+    overflow-clip-margin: content-box 0px;
+}
+a{
+    text-decoration: none;
+    cursor: default;
+}
+ul{
+    padding-inline-start: 0px;
+}
+li{
+    list-style: none;
+}
+.header-logo{
+    @include txt($font-f:'Roboto', $font-w:900, $font-s:24px,$txt-transform:uppercase, $line-h:19px, $color:$maingrey-color, $txt-decor:none, $txt-align:left);
+    width:130px;
+}
+
+.header-li{
+    @include txt($font-f:'DM Sans', $font-w:700, $font-s:18px,$txt-transform:uppercase, $line-h:23px, $color:$maingrey-color, $txt-decor:none, $txt-align:left);
+}
+.header-ul{
+    display: flex;
+    gap: 30px;
+}
+.header-cont{
+    display: flex;
+    align-items: baseline;
+    gap: 80px;
+}
+.hero-title{
+    @include txt($font-f:'Roboto', $font-w:900, $font-s:58px,$txt-transform:uppercase, $line-h:63px, $color:$maingrey-color, $txt-decor:none, $txt-align:center);
+    width:130px;
+}
+@media screen and (min-width:1200px) {
+    .hero-title{
+        @include txt($font-f:'Roboto', $font-w:900, $font-s:120px,$txt-transform:uppercase, $line-h:130px, $color:$maingrey-color, $txt-decor:none, $txt-align:left);
+        
+    }
+}
+.hero-button{
+    @include txt($font-f:'DM Sans', $font-w:700, $font-s:18px,$txt-transform:none, $line-h:26px, $color:$mainwhite-color, $txt-decor:none, $txt-align:center);
+    border: none;
+    background-color: $mainred-color;
+    border-radius: 50px;
+    padding: 25px 90px;
+    width: 400px;
+ 
+}
+@media screen and (min-width:1200px) {
+    @include txt($font-f:'DM Sans', $font-w:700, $font-s:20px,$txt-transform:none, $line-h:30px, $color:$mainwhite-color, $txt-decor:none, $txt-align:center);
+    .hero-button{
+        padding: 25px 60px;
+    }
+}
