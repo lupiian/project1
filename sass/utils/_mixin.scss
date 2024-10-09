@@ -1,0 +1,17 @@
+@mixin fonts($family:'DM Sans', $weight:700, $size:40px){
+    font-family: $family;
+    font-weight: $weight;
+    font-size: $size;
+}
+// @mixin btn-styles(){
+//     width: 314px;
+//     padding: 22px auto;
+//     background-color: $btn-bg;
+//     color: $white-col;
+//     font-family: 'DM Sans';
+//     font-size: 18px;
+//     font-weight: 700;
+//     border: none;
+//     border-radius:48px;
+    
+// }

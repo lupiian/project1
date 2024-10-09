@@ -1,0 +1,21 @@
+.footer-div{
+       background-color: $dark-bg; 
+}
+.mobile-container{
+    width: 206px;
+    margin: 0 auto;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-text{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 23px;
+    font-weight: 900;
+    color: $white-col;
+}
+.nav{
+    list-style-type: none;
+}
