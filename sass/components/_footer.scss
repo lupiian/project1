@@ -1,7 +1,31 @@
 .footer-div{
     padding-top: 148px;
     padding-bottom: 85px;
-    background-color: $dark-bg; 
+    background-color: $dark-bg;
+    
+    position: relative;
+}
+.mobile-btn{
+    position: absolute;
+    top: -7%;
+    left: 40%;
+    width: 104px;
+    height: 104px;
+    background-color:$btn-bg;
+    border-radius: 50%;
+&_svg{
+    fill: $white-col;
+    margin: 40px 34px;
+}
+}
+@media screen and (min-width:1200px){
+    .mobile-btn{
+        top: -50%;
+        left:92%;
+    &_svg{
+        margin: 40px 34px;
+    }
+    }
 }
 .foot-container{
     width: 315px;
@@ -11,6 +35,7 @@
     align-items: center;
     gap: 36px;
 }
+
 @media screen and (min-width:1200px){
     .footer-div{
         padding-top:40px;
@@ -81,6 +106,13 @@
     display: flex;
     gap: 60px;
     padding: 0;
+    margin-top: 36px;
+}
+@media screen and (min-width:1200px){
+    .networks{
+        margin: 0;
+        align-items: center;
+    }
 }
 .networks_svg{
     fill: $white-col;
