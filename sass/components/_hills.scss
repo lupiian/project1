@@ -1,0 +1,95 @@
+.hills-section{
+    margin: 0 auto;
+    display: block;
+    width: 315px;
+    max-height: 740px;
+    >h3{
+        @include text('DM Sans', 700, 40px, none, 46px, #000000, none,center);
+    }
+    >p{
+        padding: 25px 0;
+        @include text('DM Sans', 400, 16px, none, 24px, $maingrey-color, none,center);
+    }
+    >button{
+        >a{
+            @include text('DM Sans', 700, 18px, none, 27px, $mainwhite-color, none,center);
+
+        }
+        position: relative;
+        z-index: 99;
+        background-color: $mainred-color;
+        border: none;
+        border-radius: 30px;
+        padding: 22px 108px;
+    }
+}
+@media screen and (min-width:1200px){ 
+    .hills-section{
+        margin-top: 200px;
+        margin-left: 11%;
+        display: block;
+        width: 614px;
+        max-height: 740px;
+        >h3{
+            // width: 614px;
+            @include text('DM Sans', 700, 40px, none, 46px, #000000, none,center);
+        }
+        >p{
+            margin: 0 auto;
+            width: 470px;
+            padding: 10px 0;
+            @include text('DM Sans', 400, 16px, none, 24px, $maingrey-color, none,center);
+        }
+        >button{
+            >a{
+                @include text('DM Sans', 700, 18px, none, 27px, $mainwhite-color, none,center);
+    
+            }
+            position: relative;
+            z-index: 99;
+            left: 34%;
+            background-color: $mainred-color;
+            border: none;
+            border-radius: 30px;
+            padding: 15px 50px;
+            margin-top: 25px;
+        }
+    }
+    
+ }
+.waves-top{
+  margin-bottom: -180px;
+}
+@media screen and (min-width:1200px){ 
+    .waves-top{
+        display: none;
+      }
+    
+ }
+
+.waves-bot{
+    margin-top: -150px;
+
+}
+
+ @media screen and (min-width:1200px)
+ {
+    .waves-bot{
+        display: none;
+    }
+ }
+
+ .hills-section-overflow{
+    >img{
+        display: none;
+    }
+   
+ }
+ @media screen and (min-width:1200px){ 
+    .hills-section-overflow{
+        display: flex;
+        >img{
+            display: inline-flex;
+        }
+     }
+ }

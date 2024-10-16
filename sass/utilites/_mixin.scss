@@ -1,10 +1,11 @@
-@mixin txt($font-f, $font-w, $font-s,$txt-transform, $line-h, $color, $txt-decor:none, $txt-align:left){
-    font-family: $font-f;
-    font-weight:  $font-w;
+@mixin text($font-family, $font-w, $font-s,$txt-transform, $line-h, $color, $txt-decor:none, $txt-align:left){
+    font-family: $font-family;
+    font-weight: $font-w;
     font-size: $font-s;
-    line-height:  $line-h;
+    line-height: $line-h;
     color: $color;
     text-decoration: $txt-decor;
     text-align: $txt-align;
     text-transform: $txt-transform;
 }
+ 

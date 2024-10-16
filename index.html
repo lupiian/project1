@@ -10,56 +10,144 @@
     <title>Explore Indonesia</title>
 </head>
 <body>
- <header>
-    <div class="header-cont">
-        <a class="header-logo" href="#">Explore Indonesia</a>
-        <div class="container">
-            <nav class="header-nav">
-                <ul class="header-ul">
-                    <li class="header-li">
-                        <a href="#">destinations</a> 
-                    </li>
-                    <li class="header-li">
-                        <a href="#">experiences</a> 
-                    </li>   
-                    <li class="header-li">
-                        <a href="#">about</a> 
-                    </li>
-                    <li class="header-li">
-                        <a href="#">gallery</a> 
-                    </li>
-                </ul>
-            </nav>
-        </div>
+    <div class="header-main-background">
+        <header>
+      <div class="header-cont">
+                <div class="flower-header">
+              <div class="flower-logo-div"></div><a class="header-logo" href="#">Explore Indonesia</a>
+                </div>
+              <button 
+                  class="menu-toggle js-open-menu" 
+                  aria-expanded="false" 
+                  aria-controls="mobile-menu"> 
+                  <svg 
+                  width="24" 
+                  height="24" 
+                  fill="currentColor" 
+                  viewBox="0 0 20 20" 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  > 
+                  <path 
+                      fill-rule="evenodd" 
+                      d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" 
+                      clip-rule="evenodd" 
+                  ></path> 
+                  </svg> 
+              </button>
+      </div>
+           <div class="container"> 
+               <nav class="header-nav">
+                   <ul class="header-ul">
+                       <li class="header-li">
+                           <a href="#">destinations</a> 
+                       </li>
+                       <li class="header-li">
+                           <a href="#">experiences</a> 
+                       </li>   
+                       <li class="header-li">
+                           <a href="#">about</a> 
+                       </li>
+                       <li class="header-li">
+                           <a href="#">gallery</a> 
+                       </li>
+                   </ul>
+               </nav>
+           </div>
+           
+        </header>
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <h1 class="hero-title">explore indonesia</h1>
+                    <button class="hero-button"><a href="#">Start travelling</a></button>
+                    <div class="main-container">
+                        <ul class="hero-ul">
+                            <li class="hero-li">
+                                <h5 class="hero-li-num">01</h5>
+                                <h3 class="hero-li-title">Title here</h3>
+                                <p class="hero-li-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                            </li>
+                            <li class="hero-li">
+                                <h5 class="hero-li-num">02</h5>
+                                <h3 class="hero-li-title">Title here</h3>
+                                <p  class="hero-li-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                            </li>
+                            <li class="hero-li">
+                                <h5 class="hero-li-num">03</h5>
+                                <h3 class="hero-li-title">Title here</h3>
+                                <p class="hero-li-text">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                            </li>
+                        </ul>
+                    
+                            <video class="hero-video" src="https://youtu.be/jNQXAC9IVRw?si=Ezmr7wJUc6P_kJJa" poster="./img/hero-video-poster.png"></video>
+                    </div>
+                </div>
+            </section>
     </div>
- </header>
- <main>
-    <section class="hero">
-        <div class="container">
-            <h1 class="hero-title">explore indonesia</h1>
-            <button class="hero-button"><a href="#">Start travelling</a></button>
-            <ul>
-                <li>
-                    <h5>01</h5>
-                    <h3>Title here</h3>
-                    <p>Lorem ipsum dolor sit amet et amet ist ame.</p>
-                </li>
-                <li>
-                    <h5>02</h5>
-                    <h3>Title here</h3>
-                    <p>Lorem ipsum dolor sit amet et amet ist ame.</p>
-                </li>
-                <li>
-                    <h5>03</h5>
-                    <h3>Title here</h3>
-                    <p>Lorem ipsum dolor sit amet et amet ist ame.</p>
-                </li>
-            </ul>
-        </div>
-            <div class="watch-button">
-                <video src="https://youtu.be/jNQXAC9IVRw?si=Ezmr7wJUc6P_kJJa" poster="./img/hero-video-poster.png"></video>
-            </div>
-    </section>
  </main>
+</button>
+ <div class="menu-container js-menu-container" id="mobile-menu"> 
+    <button class="menu-toggle js-close-menu"> 
+      <svg 
+        fill="currentColor" 
+        viewBox="0 0 20 20" 
+        xmlns="http://www.w3.org/2000/svg" 
+        width="24" 
+        height="24"> 
+        <path 
+          fill-rule="evenodd" 
+          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" 
+          clip-rule="evenodd" 
+        ></path> 
+      </svg> 
+    </button> 
+<div class="mobile-menu">
+
+    <ul class="mobile-menu-el"> 
+        <li><a href="#" class="link">destinations</a></li> 
+        <li><a href="#" class="link">experiences</a></li> 
+        <li><a href="#" class="link">about</a></li> 
+        <li><a href="#" class="link">gallery</a></li> 
+    </ul> 
+ 
+</div>
+</div>
+<script defer src="./mobile-menu.js"></script>
+ 
+<div class="hills-section-overflow">
+    <img src="./img/hills-wavet-left.png" alt="">
+<section class="hills-section">
+    <img class="waves-top" src="./img/hills-waves-top.png"  alt="#">
+<h3>Our hills and valleys are like nothing you’ve seen.</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet magna commodo, tempus dolor sit amet, laoreet elit. Donec mauris tortor.</p>
+<button class="hills-button"><a href="#">Learn More</a></button>
+<img class="waves-bot" src="./img/hills-waves-bot.png" alt="">
+</section>
+<img src="./img/hills-waves-right.png" alt="">
+</div>
+
+
+<div class="video-section-bg">
+<div class="video-section-div">
+    <h4 class="video-section-title">Live a life like you wouldn’t imagine, experience a life you wouldn’t expect.</h3>
+<video class="video-section-video" src="https://youtu.be/FTu_ndnh-wc?si=KvKyGATxtAAuOo0l" poster="./img/vido-section.png"> </video>
+<ul class="mini-video-ul">
+    <li class="mini-video-ul-el">
+        <video src="https://youtu.be/AT4qs6uVo_Q?si=F4X3BJ5YXgYrKArT" poster="./img/mini-video1.png"></video>
+    <div  class="mini-video-div">
+        <h5>In The Country</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in lectus tempus.</p>
+    </div>   
+    </li>
+    <li class="mini-video-ul-el">
+        <video src="https://youtu.be/9N_GRbbfK9Y?si=BxDfUzB-zBZq4kZN" poster="./img/mini-video2.png"></video>
+    <div  class="mini-video-div">
+        <h5>In The City</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus mauris in.</p>
+    </div>   
+    </li>
+</ul>
+</div>
+</div>
 </body>
 </html>
