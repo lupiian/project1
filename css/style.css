@@ -1,1 +1,57 @@
-/*# sourceMappingURL=style.css.map */
+.number-title, .video-title {
+  font-family: "DM Sans", serif;
+  font-size: 700;
+}
+
+.number-text {
+  font-family: "DM Sans", serif;
+  font-size: 400;
+}
+
+ul {
+  list-style-type: none;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+.no-margin, ul, h2, p, h3 {
+  margin: 0;
+}
+
+.container {
+  width: 313px;
+  margin: 0 auto;
+  padding-inline: 30px;
+}
+
+.main-background {
+  width: 375px;
+  height: 2017px;
+  background-image: url(/img/backround.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  position: relative;
+}
+
+.video-title {
+  font-size: 50px;
+  line-height: 75px;
+  text-align: center;
+  color: #020C21;
+}
+
+.number-title {
+  font-size: 60px;
+  line-height: 90px;
+  text-align: center;
+  color: #FFF;
+}
+
+.number-text {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #E0E0E0;
+}/*# sourceMappingURL=style.css.map */

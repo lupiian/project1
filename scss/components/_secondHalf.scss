@@ -1,0 +1,8 @@
+.number-title{
+    @include h1-title;
+    color: $white;
+}
+.number-text{
+    @include paragraph;
+    color: $sub-text;
+}

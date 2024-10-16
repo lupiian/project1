@@ -1,0 +1,12 @@
+.main-background{
+    width: 375px; height: 2017px;
+    background-image: url(/img/backround.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: relative;
+}
+.video-title{
+    @include h2-title;
+    color: $background-color;
+}

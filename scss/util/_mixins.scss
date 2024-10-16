@@ -1,0 +1,26 @@
+@mixin h1-title{
+    @extend %dmSans-700;
+    font-size: 60px;
+    line-height: 90px;
+    text-align: center;  
+}
+@mixin h2-title{
+    @extend %dmSans-700;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+}
+@mixin h3-title{
+    @extend %dmSans-700;
+    font-size: 42.14px;
+    line-height: 49.16px;
+    letter-spacing: 0.38626033067703247px;
+    text-align: center;
+}
+@mixin paragraph{
+    @extend %dmSans-400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
