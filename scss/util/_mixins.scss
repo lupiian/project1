@@ -24,3 +24,16 @@
     letter-spacing: 0.5px;
     text-align: center;
 }
+@mixin title-mob{
+    @extend %dmSans-700;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+}
+@mixin paragraph-mob{
+    @extend %dmSans-400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}

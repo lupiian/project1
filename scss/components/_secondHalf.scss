@@ -1,8 +1,79 @@
+.numbers-background{
+    position: absolute; bottom: 0;
+    background-color: rgba($background-color, 0.9);
+    width: 100%; height: 929px;
+}
+.number-container.container{
+    max-width: 1922px;
+    height: 100%;
+    display: flex;
+}
+@media (max-width:1922px) {
+    $number-section-title:(":nth-child(1)": "69px",":nth-child(2)": "81px",":nth-child(3)": "44px");
+    @each $pseudo, $padding in $number-section-title{
+        .number-section-item#{$pseudo}{
+            padding-top: #{$padding};
+        }
+    }
+}
+.numbers-list, .number-section{
+    padding: 0;
+    margin: 0;
+}
 .number-title{
-    @include h1-title;
+    @include title-mob;
     color: $white;
+    margin: 0;
+}
+h1.number-title{
+    margin-bottom: 57px;
 }
 .number-text{
-    @include paragraph;
+    @include paragraph-mob;
     color: $sub-text;
+    margin: 0;
+}
+h3.number-title{
+    @include title-mob;
+    color: $h3-title-color;
+}
+@media (min-width:1922px) {
+    .numbers-background{
+        height: 794px;
+    }
+    .number-container.container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .numbers-list{
+        width: 1277px;
+        height: 368px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .number-section{
+        width: 1277px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .number-item:nth-child(1){
+        width: 484px;
+    }
+    .number-section-item{
+        max-width: 340px;
+        height: 138px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .number-title{
+        @include h3-title;
+    }
+    h1.number-title{
+        margin-bottom: 37px;
+    }
 }
