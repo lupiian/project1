@@ -1,0 +1,278 @@
+    .continer{
+        width: 375px;
+        padding: 0 15px;
+        margin: 0 auto;
+        @media screen and (min-width:1200px){
+            width: 1920px;
+        }
+    }
+li{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-inline-start: 0px;
+    margin-inline-end: 0px;
+    list-style-type: none;
+    text-align: none;
+}
+.blue-h1{
+    text-align: center;
+}
+
+.decorativ-ul-li{
+    margin-left: 20px;
+    padding: 0px;
+    width: 314px;
+    @media screen and (min-width:1200px){
+        margin: 0 auto;
+        width: 615px;
+    }
+}
+.li-h1{
+    text-align: center;
+    @include font-style('DM Sans', 40px, 700, 46px);
+    @media screen and (min-width:1200px){  
+        @include font-style('DM Sans', 60px, 700, 90px);
+        width: 520px;
+        margin-left: 30px;
+    }
+}
+.ul-img{
+    padding-left: 20px;
+    width: 315px;
+    @media screen and (min-width:1200px){
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+        width: 1170px;
+    }
+}
+.img-li-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.p-decorativ-li{
+    @include font-style('DM Sans', 16px, 400, 24px);
+    text-align: center;
+    color: $fift-color;
+    @media screen and (min-width:1200px){
+        @include font-style('DM Sans', 18px, 400, 28px);
+        width: 511px;
+        margin-left: 50px;
+    }
+}
+.decorativ-li-p{
+    width: 314px;
+}
+.div-h1{
+    @include font-style('DM Sans', 40px, 700, 90px);
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 0px;
+}
+.cont-img-li{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    @media screen and (min-width:1200px){
+        display: flex;
+        flex-direction: column;
+    }
+}
+.h1-desctop{
+    @media screen and (min-width:1200px){
+        margin-top: 0px;
+    }
+}
+.img-1{
+    @media screen and (min-width:1200px){
+    width: 370px;
+    height: 530px;
+    }
+}
+.img-1-2{
+    @media screen and (min-width:1200px){
+    width: 370px;
+    height: 210px;
+    }
+}
+.img-2{
+    @media screen and (min-width:1200px){
+    width: 370px;
+    height: 210px;
+    }
+}
+.img-2-2{
+    @media screen and (min-width:1200px){
+    width: 370px;
+    height: 530px;
+    }
+}
+.img-3{
+    width: 150px;
+    height: 150px;
+    @media screen and (min-width:1200px){
+        width: 370px;
+        height: 370px;
+    }
+}
+.blue-cont{
+    justify-content: center;
+    max-width: 375px ;
+    padding-left: 0px;
+    @media screen and (min-width:1200px){
+        display: none;
+    }
+}
+.div-blue{
+    display: none;
+    @media screen and (min-width:1200px){
+        padding: 0 358px;
+        display: flex block;
+        flex-direction: row;
+        width: 1920px;
+        margin-top: 0px;
+        background-color: $second-color;
+    }
+}
+.desctop-li-h1{
+    margin-top: 80px;
+}
+.ul-number{
+    margin-top: 228px;
+    height: 870px;
+    border-left: solid $first-color 1px;
+    width:1px;
+    padding: 0px;
+    color: $fourth-color;
+}
+.number-1{
+    margin-top: -5px;
+    margin-left: -28px;
+    width: 56px;
+    height: 56px;
+    border-radius: 30px;
+    padding: 18px 21px 19px 23px;
+    background-color: $third-color;
+    z-index: 99;
+    margin-bottom: 220px;
+}
+.number-2{
+    margin-left: -28px;
+    width: 56px;
+    height: 56px;
+    border-radius: 30px;
+    padding: 18px 21px 19px 23px;
+    background-color: $third-color;
+    z-index: 99;
+    margin-bottom: 495px;
+}
+.number-3{
+    margin-left: -28px;
+    width: 56px;
+    height: 56px;
+    border-radius: 30px;
+    padding: 18px 21px 19px 23px;
+    background-color: $third-color;
+    z-index: 99;
+    margin-bottom: 495px;
+}
+.desctop-h1{
+    @include font-style('DM Sans', 26.41px, 700, 41.08px);
+    margin: 0px
+}
+.desctop-button{
+    @include font-style('DM Sans', 18px, 700, 27px);
+    margin-left: 40px;
+    width: 210px;
+    height: 64px;
+    color: $fourth-color;
+    background-color: $third-color;
+    border-radius: 40px;
+    border: none;
+}
+.blue-div{
+    background-color: $second-color;
+    @media screen and (min-width:1200px){
+        width: 100%;
+        display: none;
+    }
+}
+.h1-div{
+    @include font-style('DM Sans', 60px, 700, 90px);
+    text-align: start;
+    padding-top: 40px;
+    margin-top: 70px;
+}
+.desctop-ul{
+    width: 1170px;
+}
+.li-desctop{
+    margin-top: 117px;
+    width: 1055px;
+}
+.desctop-li{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.small-div{
+    margin-left: 45px;
+    max-width: 456px;
+}
+.desctop-p{
+    @include font-style('DM Sans', 23.47px, 400, 38.15px);
+    text-align: left;
+    width: 1045px;
+    color: $first-color;
+}
+.ul-div{
+    gap: 12px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+}
+.li-cont-p{
+    margin-left: 140px;
+    width: 56px;
+    height: 56px;
+    border-radius: 30px;
+    padding: 18px 21px 19px 23px;
+    background-color: $third-color;
+}
+.number{
+    color: $fourth-color;
+    margin: 0px;
+}
+.img-blue{
+    width: 314px;
+    height: 208px;
+    padding-left: 30px;
+}
+.p-desctop{
+    @include font-style('DM Sans', 23.47px, 400, 38.15px);
+    margin-top: 0px;
+    text-align: left;
+    color: $first-color;
+}
+.p-desctop-li{
+    @include font-style('DM Sans', 23.47px, 400, 38.15px);
+    color: $first-color
+}
+.p-blue{
+    @include font-style('DM Sans', 16px, 400, 24px);
+    color: $first-color;
+    text-align: center;
+}
+.a-red{
+    margin-left: 130px;
+    color: red;
+    text-decoration: none;
+}
+.p-p{
+    padding-bottom: 40px;
+}
+.p-p-li{
+    padding-bottom: 80px;
+}
