@@ -142,8 +142,10 @@
 
 .mobile-btn {
   position: absolute;
-  top: -7%;
-  left: 37%;
+  top: 1%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   width: 104px;
   height: 104px;
   background-color: #DD2242;
