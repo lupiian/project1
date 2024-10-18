@@ -158,7 +158,7 @@
 
 @media screen and (min-width: 1200px) {
   .mobile-btn {
-    top: -50%;
+    top: 1%;
     left: 92%;
   }
   .mobile-btn_svg {
