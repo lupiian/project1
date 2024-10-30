@@ -1,0 +1,116 @@
+.video-section-bg{
+    background-image:
+    linear-gradient(rgba(20, 40, 90, 0.4),rgba(0, 0, 0,0.7)), 
+     url(../img/video-section-bg.jpg);
+     background-position: 30%;
+     position: relative;
+     z-index: 3;
+}
+@media screen and (min-width:1200px){
+    .video-section-bg{
+        background-image:
+        linear-gradient(rgba(20, 40, 90, 0.4),rgba(0, 0, 0,0.7)), 
+        url(../img/video-section-bg.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+    }
+}
+.video-section-div{
+     display: block;
+     margin: 0 auto;
+     width: 315px;
+     position: relative;
+     z-index: 3;
+}
+@media screen and (min-width:1200px){
+    .video-section-div{
+         display: block;
+        width: auto;
+    }
+}
+.video-section-title{
+    @include text('DM Sans', 700, 40px, none, 46px, $mainwhite-color, none,center);
+width: 260px;
+margin: 0 auto;
+padding-top: 60px;
+}
+@media screen and (min-width:1200px){
+    .video-section-title{
+    width: 875px;
+    }
+}
+.video-section-video{
+    margin: 0 auto;
+  width: 314px;
+  height: 192px;
+  margin-top: 50px;
+}
+@media screen and (min-width:1200px){
+    .video-section-video{
+        margin-left: 27%;
+    width: 1056px;
+    height: 594px;
+}
+}
+.mini-video-ul{
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+}
+@media screen and (min-width:1200px){
+    .mini-video-ul{
+        display: flex;
+        gap: 100px;
+        margin-left: 24%;
+    }
+}
+.mini-video-ul-el{
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 20px;
+    >video{
+       margin-bottom: 20px;
+        width: 320px;
+        height: 176px;
+    }
+}
+@media screen and (min-width:1200px){
+    .mini-video-ul-el{
+    margin:100px 0 ;
+    
+        display: flex;
+        gap: 40px;
+        >video{
+            width: 230px;
+            height: 151px;
+        }
+    }
+          
+}
+
+
+.mini-video-div{
+    width: 300px;
+   display: block;
+   >h5{
+    @include text('DM Sans', 700, 22px, none, 33px, $mainwhite-color, none,center);
+   }
+   >p{
+    @include text('DM Sans', 400, 16px, none, 24px, $maingrey-color, none,center);
+   }
+}
+@media screen and (min-width:1200px){
+    .mini-video-div{
+        width: 347px;
+       display: block;
+       padding-bottom: 100px;
+       >h5{
+        @include text('DM Sans', 700, 18px, none, 27px, $mainwhite-color, none,left);
+       }
+       >p{
+        @include text('DM Sans', 400, 18px, none, 28px, $maingrey-color, none,left);
+       }
+    }
+          
+}
